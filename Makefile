@@ -2,7 +2,7 @@
 
 # ----- Project Macro ----- #
 UnitTestCategory := AllTests
-UnitTestName := MyAlgorithmTest
+UnitTestName := SCDCalibratePanels2Test
 TestScript := test.py
 
 # ------------------------------------------------------ #
@@ -20,7 +20,7 @@ HOSTNAME  := $(shell hostname)
 BASEOPTS  := -GNinja -DENABLE_MANTIDPLOT=OFF -DCMAKE_INSTALL_PREFIX=$(INTALLDIR) -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
 # ----- GDB -----
-TestExecutable := $(BUILDDIR)/bin/AlgorithmsTest
+TestExecutable := $(BUILDDIR)/bin/CrystalTest
 
 # ----- BUILD OPTIONS -----
 # ----- BUILD OPTIONS -----
